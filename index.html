@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jen Hilman Body Map</title>
+<meta property="og:title" content="Jen Hilman Body Map: start where it hurts">
+<meta property="og:description" content="Tap where it hurts and a gentle practice builds itself from Jen Hilman's library of free yoga and massage videos.">
+<meta property="og:image" content="https://jenhilman.github.io/body-map/img/og.png">
+<meta property="og:url" content="https://jenhilman.github.io/body-map/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23015761'/%3E%3Ccircle cx='50' cy='50' r='16' fill='%23EBC653'/%3E%3C/svg%3E">
+<meta name="description" content="Tap where it hurts. An interactive body map that builds a gentle yoga practice from Jen Hilman's free video library.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Cormorant+Garamond:wght@500;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<svg width="0" height="0" aria-hidden="true" style="position:absolute">
+  <symbol id="sprig" viewBox="0 0 120 150">
+    <g fill="none" stroke="#8CA37F" stroke-width="1.4" stroke-linecap="round">
+      <path d="M108 6 C 86 34, 66 72, 52 118"/>
+      <path d="M96 30 C 82 26, 70 30, 62 40"/>
+      <path d="M86 52 C 72 48, 60 52, 52 63"/>
+      <path d="M76 76 C 62 72, 50 77, 43 88"/>
+      <path d="M66 102 C 53 99, 42 104, 36 115"/>
+    </g>
+    <g fill="#A9BF9A" opacity=".55">
+      <ellipse cx="78" cy="31" rx="15" ry="8" transform="rotate(-24 78 31)"/>
+      <ellipse cx="67" cy="54" rx="15" ry="8" transform="rotate(-28 67 54)"/>
+      <ellipse cx="57" cy="79" rx="15" ry="8" transform="rotate(-30 57 79)"/>
+      <ellipse cx="48" cy="105" rx="14" ry="7.5" transform="rotate(-32 48 105)"/>
+      <ellipse cx="100" cy="16" rx="12" ry="6.5" transform="rotate(-40 100 16)"/>
+    </g>
+  </symbol>
+</svg>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand">Jen Hilman<span>body map</span></div>
+    <nav class="topnav">
+      <a href="#studio" class="on">The Map</a>
+      <a href="#courses">Courses</a>
+      <a href="#library">Library</a>
+      <a href="#program">Guided programs</a>
+      <a href="#about">About Jen</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-orbs"><i></i><i></i><i></i></div>
+  <div class="wrap hero-in">
+    <span class="script">Start where it hurts</span>
+    <h1>Your body already<br>knows the way in.</h1>
+    <p>
+      Eleven years of Jen's teaching, arranged around one question: <em>where does it hurt?</em>
+      Touch a part of the body below and a practice assembles itself. Gentle, sequenced,
+      and as long as the time you actually have. Free, always.
+    </p>
+    <div class="cue"><span class="cue-dot"></span> <span id="totalVideos">…</span> practices · <span id="totalHours">…</span> hours</div>
+    <a class="hero-offer" href="#program">New: <b>guided programs</b> for your back, your neck and shoulders, and massage at home &rarr;</a>
+  </div>
+</section>
+
+<main>
+  <section class="studio" id="studio">
+    <div class="wrap">
+      <header class="studio-head">
+        <svg class="sprig sprig-l" viewBox="0 0 120 150" aria-hidden="true">
+          <use href="#sprig"/>
+        </svg>
+        <svg class="sprig sprig-r" viewBox="0 0 120 150" aria-hidden="true">
+          <use href="#sprig"/>
+        </svg>
+        <h2>Where would you like to focus?</h2>
+        <p>Select an area to explore movement and care.</p>
+      </header>
+
+      <div class="stage">
+        <div class="view-toggle" role="tablist" aria-label="Body view">
+          <button data-view="front" role="tab" aria-selected="true">Front</button>
+          <button data-view="back"  role="tab" aria-selected="false">Back</button>
+        </div>
+
+        <div class="stage-inner">
+          <div class="figure-slot" id="figureSlot"></div>
+
+          <svg class="pin-lines" id="pinLines" aria-hidden="true"></svg>
+          <div class="pins" id="pins" aria-hidden="true"></div>
+          <div class="tip" id="tip"></div>
+
+          <!-- the panel that springs out of the body when an area is chosen -->
+          <div class="reveal" id="reveal" aria-live="polite"></div>
+        </div>
+
+        <div class="stage-foot">
+          <div class="rule"></div>
+          <div class="foot-text">
+            <strong id="selCount">No areas selected</strong>
+            <span id="hint">Tap an area to add or remove</span>
+          </div>
+          <div class="rule"></div>
+        </div>
+      </div>
+
+      <div class="feelings">
+        <span class="eyebrow">Or start from how you feel</span>
+        <div class="chips" id="chips"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ the session ============ -->
+  <section class="practice" id="practice">
+    <div class="wrap">
+      <div class="session-card">
+        <div class="session-top">
+          <span class="script">Today's</span>
+          <h2>Self-Soothing Session</h2>
+          <p>Everything you have chosen, sequenced the way Jen teaches:
+             settle in, do the work, rest at the end.</p>
+          <div class="session-meta">
+            <div class="stat"><div class="k" id="statCount">—</div><div class="l">Practices</div></div>
+            <div class="stat"><div class="k" id="statTime">—</div><div class="l">Total time</div></div>
+            <div class="stat" style="margin-left:auto">
+              <button class="btn solid" id="playAll" style="display:none">Play session</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <div class="control">
+            <label for="budget">Time</label>
+            <select id="budget">
+              <option value="any">However long</option>
+              <option value="10">10 min</option>
+              <option value="20">20 min</option>
+              <option value="30">30 min</option>
+              <option value="45">45 min</option>
+              <option value="60">1 hour</option>
+              <option value="90">90 min</option>
+            </select>
+          </div>
+          <div class="control">
+            <label for="level">Level</label>
+            <select id="level">
+              <option value="any">Any level</option>
+              <option value="beginner">Go easy on me</option>
+            </select>
+          </div>
+          <div class="picked" id="picked"></div>
+        </div>
+
+        <div class="list" id="list"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ guided programs (paid; cards come from OFFERS in js/app.js) ============ -->
+  <section class="program" id="program">
+    <div class="wrap">
+      <div class="program-head">
+        <span class="script">A path, not a playlist</span>
+        <h2>Guided programs with Jen</h2>
+        <p>The practices here are free, and they always will be. If you would like Jen to walk you through them,
+           each program puts them in an order that makes sense for the body, with a short note from Jen for every day,
+           short lessons, a tracker, and a routine of your own at the end. Printable PDF, instant download.</p>
+      </div>
+      <div class="program-grid" id="programGrid"></div>
+      <div class="program-bundle" id="programBundle"></div>
+    </div>
+  </section>
+
+  <!-- ============ courses ============ -->
+  <section class="courses" id="courses">
+    <div class="wrap">
+      <div class="lib-head">
+        <div>
+          <span class="eyebrow">Work through something</span>
+          <h2>Courses</h2>
+          <p style="margin:6px 0 0;color:var(--muted);font-size:14px" id="courseCount"></p>
+        </div>
+        <div class="chips" id="courseTabs">
+          <button class="chip on" data-ckind="all">All</button>
+          <button class="chip" data-ckind="guided">Guided</button>
+          <button class="chip" data-ckind="collection">Collections</button>
+          <button class="chip" data-ckind="series">Series</button>
+        </div>
+      </div>
+      <div class="course-grid" id="courseGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ library ============ -->
+  <section class="library" id="library">
+    <div class="wrap">
+      <div class="lib-head">
+        <div>
+          <span class="eyebrow">Every video, categorised</span>
+          <h2>The whole library</h2>
+          <p style="margin:6px 0 0;color:var(--muted);font-size:14px" id="libCount"></p>
+        </div>
+        <input class="search" id="search" type="search" placeholder="Search: sciatica, shoulders, sleep…" aria-label="Search practices">
+      </div>
+
+      <div class="cats chips" id="cats"></div>
+      <div class="grid" id="grid"></div>
+      <div class="more"><button class="btn" id="more">Show more</button></div>
+    </div>
+  </section>
+
+  <!-- ============ about ============ -->
+  <section class="about" id="about">
+    <div class="wrap about-grid">
+      <div>
+        <span class="script">About</span>
+        <h2>Jen Hilman</h2>
+        <p>
+          A dancer, choreographer, yogi and licensed massage therapist from Austin, Texas.
+          Her grandmother taught dance; Jen grew up in the studio, took a BA in Dance, and found
+          yoga in her final year of college. She moved to Austin for her Texas massage licence,
+          and, wanting to give her clients more to take home, went on to her 200-hour yoga
+          teacher training and her first Thai Yoga Massage study.
+        </p>
+        <p>
+          From 2010 to 2021 she taught millions of people through Psychetruth and her own channel.
+          What sets her apart is the detail: she explains alignment the way a bodyworker would,
+          because she is one. For anyone in chronic pain or coming back from injury, that patience
+          is the whole point.
+        </p>
+        <p style="opacity:.62;font-size:13.5px">
+          Every practice here is free and plays from YouTube: from Jen's own channel and from
+          the channels she taught for, Psychetruth and YOGATX.
+        </p>
+        <div class="links">
+          <a href="https://www.jenhilman.com/" target="_blank" rel="noopener">jenhilman.com</a>
+          <a href="https://www.youtube.com/@JenHilman" target="_blank" rel="noopener">YouTube</a>
+          <a href="https://www.youtube.com/@psychetruth" target="_blank" rel="noopener">Psychetruth</a>
+          <a href="https://www.instagram.com/jenhilman/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+
+      <div class="about-facts">
+        <div class="fact"><div class="k">2010 to 2021</div><div class="l">Eleven years of teaching online</div></div>
+        <div class="fact"><div class="k">Austin, TX</div><div class="l">Home studio &amp; practice</div></div>
+        <div class="fact"><div class="k">200-hr RYT · LMT</div><div class="l">Yoga teacher &amp; licensed massage therapist</div></div>
+        <div class="fact"><div class="k">Thai Yoga Massage</div><div class="l">Trained in Rio and Thailand</div></div>
+        <div class="fact"><div class="k">BA, Dance</div><div class="l">20 years of movement study</div></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; Jen Hilman Productions, LLC &middot; <a href="https://www.jenhilman.com/">jenhilman.com</a></span>
+    <span>Free videos play from YouTube &middot; Educational only, not medical advice</span>
+  </div>
+</footer>
+
+<!-- ============ guided course slideshow ============ -->
+<div class="deck" id="deck" role="dialog" aria-modal="true" aria-label="Guided course">
+  <div class="deck-bar">
+    <div class="deck-id">
+      <span class="deck-kicker" id="deckKicker"></span>
+      <strong id="deckTitle"></strong>
+    </div>
+    <div class="deck-progress" id="deckDots" aria-hidden="true"></div>
+    <div class="deck-count"><span id="deckStep"></span></div>
+    <button class="deck-close" id="deckClose" aria-label="Close course">&times;</button>
+  </div>
+
+  <div class="deck-stage" id="deckStage"></div>
+
+  <div class="deck-nav">
+    <button class="btn ghost" id="deckPrev">&larr; Back</button>
+    <div class="deck-rail"><div class="deck-fill" id="deckFill"></div></div>
+    <button class="btn solid" id="deckNext">Next &rarr;</button>
+  </div>
+</div>
+
+<!-- ============ course detail ============ -->
+<div class="course-view" id="courseView" role="dialog" aria-modal="true" aria-label="Course">
+  <div class="cv-box">
+    <div class="cv-top">
+      <button class="cv-close" id="cvClose" aria-label="Close">&times;</button>
+      <span class="eyebrow" id="cvKind"></span>
+      <h3 id="cvTitle"></h3>
+      <p id="cvBlurb"></p>
+      <div class="cv-meta">
+        <span id="cvMeta"></span>
+        <button class="btn solid" id="cvStart">Start course</button>
+      </div>
+    </div>
+    <div class="cv-list" id="cvList"></div>
+  </div>
+</div>
+
+<!-- ============ player ============ -->
+<div class="player" id="player" role="dialog" aria-modal="true" aria-label="Video player">
+  <button class="player-close" id="closePlayer" aria-label="Close player">&times;</button>
+  <div class="player-box">
+    <div class="player-frame" id="frame"></div>
+    <div class="player-bar">
+      <h3 id="playTitle"></h3>
+      <button class="btn" id="next"></button>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

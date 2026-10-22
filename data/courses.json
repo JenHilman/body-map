@@ -1,0 +1,429 @@
+{
+  "_note": "Authored courses. Every `video` step's id must exist in videos.json — tools/build-catalog.mjs validates this and prints anything broken. Educational text is written for this site, not transcribed from Jen; links were checked for a 200 on 2026-09-12.",
+  "courses": [
+    {
+      "id": "back-from-the-ground-up",
+      "title": "Your Back, From The Ground Up",
+      "kicker": "Guided course · 5 sessions",
+      "blurb": "The most common reason people find Jen. Five practices, with the anatomy and the evidence that make them make sense.",
+      "cover": "CO3racIlTcg",
+      "steps": [
+        {
+          "type": "lesson",
+          "eyebrow": "Before you begin",
+          "title": "What this course is",
+          "body": [
+            "Low back pain is the single largest thing in Jen's library — around 153 of her practices touch it. That is not an accident. It is the most common reason people go looking for yoga in the first place.",
+            "This course is five of those practices in a deliberate order, with short lessons in between explaining what you are working on and why. Expect about two hours of video across the whole thing. You are not meant to do it in one sitting."
+          ],
+          "points": [
+            "Five video sessions, 13 to 31 minutes each",
+            "A mat, and a wall or chair within reach",
+            "Spread over a week or two, not a day"
+          ],
+          "note": "This is educational material, not medical advice. If you are under care for a back problem, take this to whoever is treating you first."
+        },
+        {
+          "type": "lesson",
+          "eyebrow": "Lesson 1",
+          "title": "What we actually know about back pain",
+          "body": [
+            "Most low back pain is what clinicians call *non-specific*: no single structure can be blamed for it, imaging often looks the same in people with pain and people without, and it usually improves over weeks rather than months.",
+            "The guidance has shifted a long way from where it was a generation ago. Bed rest is out. Staying in gentle movement is in. The American College of Physicians' 2017 guideline puts non-drug treatment first for chronic low back pain and names yoga among the options with supporting evidence.",
+            "The honest version of the evidence: a Cochrane review found yoga probably produces small-to-moderate improvements in back-related function at three and six months compared with no exercise, with effects similar to other kinds of exercise. Useful — not miraculous. What matters most is that you keep doing something."
+          ],
+          "links": [
+            {
+              "label": "Back pain — what it is and what helps",
+              "source": "NHS",
+              "url": "https://www.nhs.uk/conditions/back-pain/"
+            },
+            {
+              "label": "Yoga for chronic non-specific low back pain",
+              "source": "Cochrane review",
+              "url": "https://www.cochrane.org/CD010671/BACK_yoga-treating-chronic-non-specific-low-back-pain"
+            }
+          ]
+        },
+        {
+          "type": "safety",
+          "eyebrow": "Read this once",
+          "title": "When to stop and see someone",
+          "body": [
+            "Almost all back pain is not dangerous. A small number of symptoms are, and they are worth knowing by name so you can recognise them rather than worry about them."
+          ],
+          "points": [
+            "Numbness around the groin, inner thighs or buttocks",
+            "Loss of bladder or bowel control, or difficulty passing urine",
+            "Weakness in a leg that is getting worse, or both legs",
+            "Pain after a significant fall or accident",
+            "Fever, unexplained weight loss, or a history of cancer alongside new back pain"
+          ],
+          "note": "Any of those means contact a doctor promptly rather than stretching. Otherwise: pain that eases as you move is normal; sharp, electrical pain that worsens is a signal to back off that movement."
+        },
+        {
+          "type": "video",
+          "id": "CO3racIlTcg",
+          "why": "Her most-watched practice, and a good measure of where you are. Gentle, floor-based, nothing that demands flexibility you do not have yet.",
+          "cue": "Go for the version of each shape you could hold while breathing normally. If you are holding your breath, you have gone too far."
+        },
+        {
+          "type": "lesson",
+          "eyebrow": "Lesson 2",
+          "title": "Why the hips are part of your back",
+          "body": [
+            "The lumbar spine sits between two things that move a great deal: the ribcage above and the pelvis below. When the hips stop offering range, the low back tends to supply it instead — the same bend, borrowed from vertebrae that are not built to give much.",
+            "Two structures matter here. The **psoas** runs from the front of the lumbar spine, across the pelvis, to the inner thigh — the only muscle connecting spine to leg, and it shortens with hours of sitting. The **glutes and deep rotators** sit behind the hip joint, and when they are tight or weak the pelvis loses its neutral.",
+            "That is why a back course spends so much time on hips. You are widening the range at the joint above and below so the lumbar spine has less to do."
+          ]
+        },
+        {
+          "type": "video",
+          "id": "DavfjAoWdvE",
+          "why": "Straight at the glutes and deep hip rotators — the muscles that sit directly over the path of the sciatic nerve.",
+          "cue": "Figure-four and pigeon shapes should feel like a broad stretch in the back of the hip. Anything sharp down the leg is the nerve, not the muscle. Ease off."
+        },
+        {
+          "type": "lesson",
+          "eyebrow": "Lesson 3",
+          "title": "Sciatica is a symptom, not a diagnosis",
+          "body": [
+            "\"Sciatica\" describes pain that travels along the sciatic nerve — typically down one buttock and the back of one leg, often past the knee. It is a description of where pain goes, not an explanation of why. The cause is usually irritation of a nerve root in the lower spine.",
+            "Most sciatica settles within four to six weeks. The instinct is to stretch harder into it; that is usually the wrong move. Irritated nerve tissue does not respond to being pulled the way a tight muscle does.",
+            "The workable rule: movement that eases or centralises the pain — draws it back toward your spine and away from your foot — is worth repeating. Movement that pushes the pain further down the leg is worth avoiding for now."
+          ],
+          "links": [
+            {
+              "label": "Sciatica — symptoms, timeline, and when to get help",
+              "source": "NHS",
+              "url": "https://www.nhs.uk/conditions/sciatica/"
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "id": "9f1Y4OV3QlA",
+          "why": "Jen's dedicated low back and sciatica sequence, and one of her clearest pieces of teaching on where to stop.",
+          "cue": "Keep the rule from the last lesson in mind the whole way through: pain moving up toward the spine is good, pain travelling further down the leg is not."
+        },
+        {
+          "type": "lesson",
+          "eyebrow": "Lesson 4",
+          "title": "The part that isn't yoga",
+          "body": [
+            "Twenty minutes on a mat does not undo fourteen hours of stillness. The strongest predictor of how your back feels is what you do with the rest of the day.",
+            "Three things do most of the work. **Change position often** — the best posture really is the next one; a timer every 30–45 minutes beats any single ideal sitting position. **Lift with your hips and knees**, load close to your body, and turn your feet rather than twisting your spine. **Keep walking** — it is the most consistently useful thing in the literature for backs, and it costs nothing."
+          ],
+          "links": [
+            {
+              "label": "Lifting and bending the right way",
+              "source": "MedlinePlus",
+              "url": "https://medlineplus.gov/ency/patientinstructions/000414.htm"
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "id": "cTOwkQwRskE",
+          "why": "The long one. By now you know which shapes your back likes, and this gives you room to stay in them.",
+          "cue": "Half an hour. If that is too much today, do the first fifteen minutes and come back — a short practice you finish beats a long one you abandon."
+        },
+        {
+          "type": "video",
+          "id": "Qh7oV0Cpk60",
+          "why": "Nine minutes. This is the one that survives a real week — short enough that you will actually do it on the days you do not want to.",
+          "cue": "Learn this one well enough to do it without the video. That is when a practice stops being homework."
+        },
+        {
+          "type": "finish",
+          "eyebrow": "Finished",
+          "title": "Where to go from here",
+          "body": [
+            "You now have five practices you know your way around. The useful thing is not to keep looking for new ones — it is to repeat these until your body stops needing the instruction.",
+            "Twice a week is enough to hold ground. Three times is enough to gain it — and on the days you have nothing left, the nine-minute one still counts."
+          ],
+          "next": [
+            {
+              "label": "Yoga for Low Back, Hips & Sciatica",
+              "course": "yoga-for-low-back-hips-sciatica"
+            },
+            {
+              "label": "Yoga for Core Strength",
+              "course": "yoga-for-core-strength"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "undo-the-desk",
+      "title": "Undo The Desk",
+      "kicker": "Guided course · 5 sessions",
+      "blurb": "Neck, shoulders, upper back and wrists — for bodies that spend the day at a keyboard. Including the parts that are about the desk, not the mat.",
+      "cover": "Ub8afedu5GQ",
+      "steps": [
+        {
+          "type": "lesson",
+          "eyebrow": "Before you begin",
+          "title": "What this course is",
+          "body": [
+            "Desk work does not injure people dramatically. It accumulates. Neck stiffness, a band across the shoulders, a mid-back that has forgotten how to extend, wrists that ache by Thursday.",
+            "Five sessions, shortest first, so you have something you can do in a work break by the end of the first lesson. Two of the lessons are not about yoga at all — they are about the eight hours in between."
+          ],
+          "points": [
+            "Five video sessions, 9 to 24 minutes each",
+            "Two can be done in a chair, in work clothes",
+            "Best done across a working week"
+          ],
+          "note": "Educational material, not medical advice. Pain that wakes you at night, or numbness and weakness in an arm or hand, is worth a clinician's opinion rather than a stretch."
+        },
+        {
+          "type": "lesson",
+          "eyebrow": "Lesson 1",
+          "title": "Posture is not the villain",
+          "body": [
+            "The story most of us absorbed is that there is one correct way to sit and that pain is the punishment for failing at it. The research has not been kind to that story: studies comparing posture between people with and without neck or back pain repeatedly fail to find the clean relationship you would expect.",
+            "What does show up consistently is **duration**. Holding any position for hours — including a textbook-perfect one — is what loads tissue. The muscles between your shoulder blades are endurance muscles being asked to do a static job for eight hours.",
+            "So this course is not going to correct your posture. It is going to interrupt it. Frequency beats form."
+          ],
+          "links": [
+            {
+              "label": "Neck pain and a stiff neck",
+              "source": "NHS",
+              "url": "https://www.nhs.uk/conditions/neck-pain-and-stiff-neck/"
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "id": "CaPRFm3EZWY",
+          "why": "Nine minutes, mostly seated. This is the one to keep — the practice you can actually do between meetings without changing clothes.",
+          "cue": "Neck work should feel like length, never like grinding. Move slowly enough that you could stop mid-movement."
+        },
+        {
+          "type": "lesson",
+          "eyebrow": "Lesson 2",
+          "title": "The three places a desk lands",
+          "body": [
+            "**The neck and upper traps.** A head weighs four to five kilos and sits on a small stack of bones. Tilt it forward toward a screen and the muscles down the back of the neck hold that load isometrically all day.",
+            "**The thoracic spine and chest.** Reaching forward for a keyboard shortens the pectorals and asks the mid-back to stay rounded. The mid-back is built to rotate and extend; it does neither at a desk. That lost range often reappears as neck and shoulder pain, because the neck compensates for it.",
+            "**The forearms and wrists.** Typing is a small, repetitive load on tissue that has no rest between repetitions. The classic symptoms — aching, tingling, night-time numbness in the thumb side of the hand — deserve attention early rather than late."
+          ],
+          "links": [
+            {
+              "label": "Repetitive strain injury (RSI)",
+              "source": "NHS",
+              "url": "https://www.nhs.uk/conditions/repetitive-strain-injury-rsi/"
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "id": "Ub8afedu5GQ",
+          "why": "Her main neck and shoulder sequence, and one of her most-watched practices. It covers the first two of those three places properly.",
+          "cue": "When she cues the shoulder blades down the back, that is the mid-back waking up. That sensation is the point of the session."
+        },
+        {
+          "type": "lesson",
+          "eyebrow": "Lesson 3",
+          "title": "Your workstation, in five minutes",
+          "body": [
+            "Nothing here needs new furniture. Work down the list in order and stop when it is true.",
+            "**Screen** — top of the screen roughly at eye level, about an arm's length away. A stack of books works. **Elbows** — around 90 degrees, upper arms hanging near your sides, not reaching forward. Lower the desk or raise the chair. **Feet** — flat on the floor or a box; if your chair is too high your pelvis will tip and your low back will take it. **Wrists** — straight, floating, not resting on an edge while typing.",
+            "Then the one that matters most: something that makes you stand up. A timer, a smaller water glass, taking calls on your feet. The setup buys you comfort; the interruptions buy you the rest."
+          ]
+        },
+        {
+          "type": "video",
+          "id": "mN5gbzsPJ1Y",
+          "why": "Hands, wrists and forearms — the part almost every desk routine skips, and the part that gets loudest if ignored.",
+          "cue": "Do these on days you type a lot, not on days your wrists already hurt. Early and often beats hard and late."
+        },
+        {
+          "type": "lesson",
+          "eyebrow": "Lesson 4",
+          "title": "Headaches that start in the neck",
+          "body": [
+            "Not all headaches come from the head. **Tension-type headache** — the most common kind — is often described as a band of pressure around the skull, and frequently travels with tight neck and shoulder muscles. **Cervicogenic headache** is pain referred into the head from the neck's upper joints; it is usually one-sided and can be provoked by neck movement or by holding one position too long.",
+            "Neither responds well to being powered through. Both often respond to the mundane things: movement, water, sleep, and reducing the static load at the top of the spine — which is most of what this course has been doing."
+          ],
+          "note": "A headache that is sudden and severe, different from any you have had, or comes with fever, vision changes, confusion or weakness, needs urgent medical attention rather than a practice."
+        },
+        {
+          "type": "video",
+          "id": "YCn4kQ4GCXE",
+          "why": "Jen's dedicated sequence for chronic tension headaches, working the neck and jaw rather than the head itself.",
+          "cue": "Notice whether your jaw is clenched right now. It probably is. That is part of this too."
+        },
+        {
+          "type": "video",
+          "id": "7hIy7RqDnIk",
+          "why": "She is a licensed massage therapist as well as a yoga teacher, and this is the side of her work people miss. Hands-on release for the neck and head — do it to yourself, or trade with someone.",
+          "cue": "A good end to the course. If you have someone to trade with, this is the one to do together."
+        },
+        {
+          "type": "finish",
+          "eyebrow": "Finished",
+          "title": "Where to go from here",
+          "body": [
+            "Keep the nine-minute one. Everything else in this course was context for it.",
+            "The realistic version of desk maintenance is a short practice most days and a longer one when you have the time — not the other way round."
+          ],
+          "next": [
+            {
+              "label": "Neck, Shoulders, Headaches",
+              "course": "neck-shoulders-headaches"
+            },
+            {
+              "label": "Massage",
+              "course": "massage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "learning-to-land",
+      "title": "Learning To Land",
+      "kicker": "Guided course · 5 sessions",
+      "blurb": "For a nervous system that will not switch off. Breath, gentle movement and sleep — with an honest account of what this can and cannot do.",
+      "cover": "OQNu5ewWmsk",
+      "steps": [
+        {
+          "type": "lesson",
+          "eyebrow": "Before you begin",
+          "title": "What this course is",
+          "body": [
+            "This is the quietest course of the three. Nothing in it is difficult physically. That is not the same as easy — slowing down is its own skill, and most people find the first session longer than they expected.",
+            "It moves from breath, through two full relaxation practices, to sleep. Do them in order; each assumes the one before."
+          ],
+          "points": [
+            "Five sessions, 9 to 30 minutes",
+            "Somewhere you will not be interrupted",
+            "Two of them are designed to be done in bed"
+          ],
+          "note": "This is educational material and a wellbeing practice, not treatment. Persistent anxiety, low mood or insomnia deserve a clinician — and respond well to treatment. This sits alongside that, not instead of it."
+        },
+        {
+          "type": "lesson",
+          "eyebrow": "Lesson 1",
+          "title": "What \"calming down\" actually is",
+          "body": [
+            "The nervous system has two broad settings: a sympathetic one that mobilises you, and a parasympathetic one that lets you digest, repair and rest. Stress is not a character flaw; it is the first branch doing its job and then failing to stand down.",
+            "Breathing is the most direct lever you have on that, because it is the one part of the system you can run both automatically and deliberately. The specific piece that matters: **a longer exhale than inhale**. Heart rate rises slightly as you breathe in and falls as you breathe out, so lengthening the out-breath biases the whole system toward the calmer branch.",
+            "That is the mechanism underneath most of what follows. Four counts in, six or eight out. Nothing more complicated than that."
+          ],
+          "links": [
+            {
+              "label": "Breathing exercises for stress",
+              "source": "NHS",
+              "url": "https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/breathing-exercises-for-stress/"
+            },
+            {
+              "label": "Relaxation techniques — what the evidence says",
+              "source": "NCCIH (US National Institutes of Health)",
+              "url": "https://www.nccih.nih.gov/health/relaxation-techniques-what-you-need-to-know"
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "id": "JalSu1XAz-w",
+          "why": "Start seated and still. Sixteen minutes of guided meditation, which is long enough for the shift in the last lesson to actually happen.",
+          "cue": "If your mind wanders constantly, the practice is working exactly as intended. Noticing and returning is the repetition — not a failure of it."
+        },
+        {
+          "type": "lesson",
+          "eyebrow": "Lesson 2",
+          "title": "What yoga can and cannot do here",
+          "body": [
+            "Worth being straight about. Reviews of yoga and meditation for stress and anxiety generally find modest benefits — real, measurable, and smaller than the marketing around them suggests. They compare reasonably well with other active approaches and clearly beat doing nothing.",
+            "Where they earn their place is consistency and cost: no side effects for most people, nothing to buy, and they can sit alongside anything else you are doing.",
+            "The next two sessions are days one and two of a five-day series Jen made specifically for stress and anxiety. Doing two consecutive days of the same series is the point — the second one lands differently because your body has a reference for it."
+          ],
+          "links": [
+            {
+              "label": "Yoga — what you need to know",
+              "source": "NCCIH",
+              "url": "https://www.nccih.nih.gov/health/yoga-what-you-need-to-know"
+            },
+            {
+              "label": "Meditation and mindfulness — effectiveness and safety",
+              "source": "NCCIH",
+              "url": "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety"
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "id": "VMHkmzOMcyk",
+          "why": "Day one of her stress and anxiety series. Slow, floor-based, and long enough to stop performing.",
+          "cue": "Let the exhale be longer than the inhale the whole way through, even when she is not cueing it."
+        },
+        {
+          "type": "video",
+          "id": "VDBann4RL2g",
+          "why": "Day two. Ideally the day after day one, while the first is still in your body.",
+          "cue": "Compare it honestly with yesterday. Not better or worse — just different, and worth noticing."
+        },
+        {
+          "type": "lesson",
+          "eyebrow": "Lesson 3",
+          "title": "Sleep is a behaviour, not a switch",
+          "body": [
+            "Sleep cannot be forced, and trying is the thing that keeps most people awake. The more effort you put into falling asleep, the more alert you become — which is why \"try harder\" is the one strategy guaranteed to fail.",
+            "What works is making sleep more likely and then getting out of the way. A consistent wake time anchors the whole rhythm, more than a consistent bedtime does. Light in the morning, dimmer light at night. A bed used for sleep, so the association stays clean. And if you are awake and frustrated after twenty minutes or so, getting up and doing something dull in low light beats lying there negotiating.",
+            "If insomnia has been going on for months, the first-line treatment is not a pill and not a bedtime routine — it is **CBT-I**, a short structured therapy with better long-term results than medication. Worth knowing it exists, because it is chronically under-prescribed."
+          ],
+          "links": [
+            {
+              "label": "Cognitive behavioural therapy for insomnia (CBT-I)",
+              "source": "Sleep Foundation",
+              "url": "https://www.sleepfoundation.org/insomnia/treatment/cognitive-behavioral-therapy-insomnia"
+            },
+            {
+              "label": "How to get to sleep",
+              "source": "NHS",
+              "url": "https://www.nhs.uk/live-well/sleep-and-tiredness/how-to-get-to-sleep/"
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "id": "VJVXN9Td7Jg",
+          "why": "Her bedtime sequence — gentle enough to do on a bed, built to be the last thing before lights out.",
+          "cue": "Do this one in what you sleep in, with the lights already low. The point is that nothing has to happen afterwards."
+        },
+        {
+          "type": "video",
+          "id": "2Lrvu258lLw",
+          "why": "Eight minutes, lying down, eyes closed. The one to keep on your phone for the nights you wake at three.",
+          "cue": "You are not trying to stay awake for the end of it."
+        },
+        {
+          "type": "finish",
+          "eyebrow": "Finished",
+          "title": "Where to go from here",
+          "body": [
+            "The eight-minute meditation and the breath pattern from lesson one are the two pieces that survive contact with a real week. Everything else was there to teach you what they feel like.",
+            "Jen made three more days of that stress and anxiety series. If these two did something for you, the rest are waiting."
+          ],
+          "next": [
+            {
+              "label": "Yoga for Relaxation",
+              "course": "yoga-for-relaxation"
+            },
+            {
+              "label": "Guided Meditations",
+              "course": "guided-meditations"
+            },
+            {
+              "label": "Yoga for Anxiety & Depression",
+              "course": "yoga-for-anxiety-depression"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
